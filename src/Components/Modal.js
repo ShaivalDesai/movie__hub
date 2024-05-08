@@ -22,7 +22,7 @@ const Fade = React.forwardRef(function Fade(props, ref) {
     ...other
   } = props;
   const style = useSpring({
-    from: { opacity: 1 },
+    from: { opacity: 0 },
     to: { opacity: open ? 1 : 0 },
     onStart: () => {
       if (open && onEnter) {
