@@ -88,36 +88,6 @@ function Hc() {
     navigate("/home");
   };
 
-  // const options = {
-  //   method: "GET",
-  //   headers: {
-  //     accept: "application/json",
-  //     Authorization:
-  //       "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwZmFhMzIyMTNlZTQ4NTIzOTM4MjY3YTE2YjFhNWU5YSIsInN1YiI6IjY2MzQ3ZWFhZmU2YzE4MDEyOTJmY2UwNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.GrK7x82WbpitfyN0fIg-MG11r8zMkErXr9E2Zhb8Pzo",
-  //   },
-  // };
-
-  //   useEffect(() => {
-  //     async function fetchVideoData() {
-  //       if (selectedMovie) {
-  //         const url = `https://api.themoviedb.org/3/movie/${selectedMovie.id}/videos?language=en-US`;
-  // // console.log(url);
-  //         try {
-  //           const response = await fetch(url, options);
-
-  //           const data = await response.json();
-
-  //           let a = data.results[0].key;
-  //           console.log(a);
-  //         } catch (error) {
-  //           console.error("Error fetching video data:", error);
-  //         }
-  //       }
-  //     }
-
-  //     fetchVideoData();
-  //   }, [selectedMovie, options]);
-
   return (
     <>
       <div

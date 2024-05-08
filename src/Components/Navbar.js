@@ -28,8 +28,13 @@ function Navbar({ home, sortAsc, sortDes }) {
   };
 
   return (
-    <Box style={{ marginTop: "20px",}}>
-      <BottomNavigation showLabels value={value} onChange={handleNavigation} style={{borderRadius:"5px",}}>
+    <Box style={{ marginTop: "20px" }}>
+      <BottomNavigation
+        showLabels
+        value={value}
+        onChange={handleNavigation}
+        style={{ borderRadius: "5px" }}
+      >
         <BottomNavigationAction label="Home" icon={<HomeIcon />} />
         <BottomNavigationAction
           label="Sort Ascending"
